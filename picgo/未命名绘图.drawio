@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T07:52:23.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="fF9GMO1uuSpy8x85AhZz" version="24.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-25T14:17:02.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4Wm3exFwh7vIY6aiCdXy" version="22.1.21" type="github" pages="4">
   <diagram name="业务流程" id="spiNlkM-TbmhVh81Pjsh">
-    <mxGraphModel dx="2261" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2141" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -442,12 +442,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4-073mvKRfbi-C72gt2Q" name="表设计">
-    <mxGraphModel dx="607" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="633" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PgDLV-IhjqofpzERR10L-1" value="杨不易呀@yby6.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=思源黑体;fontColor=#333333;tempflowAnimation=1;" vertex="1" parent="1">
+        <mxCell id="PgDLV-IhjqofpzERR10L-1" value="杨不易呀@yby6.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=思源黑体;fontColor=#333333;tempflowAnimation=1;" parent="1" vertex="1">
           <mxGeometry x="916" y="52" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1BJ_nlUNqkBaPJZaFGLD-2" value="openai_order&#xa;订单表" style="text;whiteSpace=wrap;fontSize=28;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="920" y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1BJ_nlUNqkBaPJZaFGLD-3" value="openai_order_payment_log&#xa;订单交易记录表" style="text;whiteSpace=wrap;fontSize=28;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="170" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1BJ_nlUNqkBaPJZaFGLD-6" value="openai_product&#xa;商品表" style="text;whiteSpace=wrap;fontSize=28;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="911" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1BJ_nlUNqkBaPJZaFGLD-8" value="CREATE TABLE `openai_order` (&#xa;  `id` bigint(32) NOT NULL COMMENT &#39;自增ID&#39;,&#xa;  `order_no` varchar(50) DEFAULT NULL COMMENT &#39;商户订单编号&#39;,&#xa;  `openid` varchar(128) NOT NULL COMMENT &#39;用户ID；微信分配的唯一ID编码&#39;,&#xa;  `product_id` int(4) NOT NULL COMMENT &#39;商品ID&#39;,&#xa;  `product_name` varchar(32) NOT NULL COMMENT &#39;商品名称&#39;,&#xa;  `product_quota` int(8) NOT NULL COMMENT &#39;商品额度&#39;,&#xa;  `product_model_types` varchar(128) DEFAULT NULL COMMENT &#39;可用模型；gpt-3.5-turbo,gpt-3.5-turbo-16k,gpt-4,gpt-4-32k&#39;,&#xa;  `order_id` varchar(12) NOT NULL COMMENT &#39;订单编号&#39;,&#xa;  `order_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;下单时间&#39;,&#xa;  `order_status` tinyint(1) NOT NULL COMMENT &#39;订单状态；0-创建完成、1-等待发货、2-发货完成、3-系统关单&#39;,&#xa;  `total_fee` int(11) DEFAULT NULL COMMENT &#39;订单金额(分)&#39;,&#xa;  `total_amount` decimal(10,2) NOT NULL COMMENT &#39;订单金额&#39;,&#xa;  `pay_type` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;支付方式；0-微信支付&#39;,&#xa;  `pay_url` varchar(128) DEFAULT NULL COMMENT &#39;支付地址；创建支付后，获得的URL地址&#39;,&#xa;  `pay_amount` decimal(10,2) DEFAULT NULL COMMENT &#39;支付金额；支付成功后，以回调信息更新金额&#39;,&#xa;  `transaction_id` varchar(32) DEFAULT NULL COMMENT &#39;交易单号；支付成功后，回调信息的交易单号&#39;,&#xa;  `pay_status` tinyint(1) DEFAULT NULL COMMENT &#39;支付状态；0-等待支付、1-支付完成、2-支付失败、3-放弃支付&#39;,&#xa;  `pay_time` datetime DEFAULT NULL COMMENT &#39;支付时间&#39;,&#xa;  `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&#xa;  `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&#xa;  `is_deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除: 0 否 1 是&#39;,&#xa;  PRIMARY KEY (`id`),&#xa;  UNIQUE KEY `uq_order_id` (`order_id`),&#xa;  KEY `idx_openid` (`openid`),&#xa;  KEY `idx_order_status_pay_status_order_time` (`order_time`,`order_status`,`pay_status`)&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#39;订单表&#39;;" style="text;whiteSpace=wrap;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="980" y="430" width="810" height="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
