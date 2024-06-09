@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T07:01:59.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rwbE3uLvxz7lHv21JJSE" border="50" scale="3" compressed="false" locked="false" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T07:11:02.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Gs8tX9-VJaKGI8dlGW2W" border="50" scale="3" compressed="false" locked="false" version="24.5.2" type="github">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
     <mxGraphModel dx="1636" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
@@ -18,6 +18,14 @@
         <mxCell id="a7TuhBxVVwtQFAswcTZL-5" value="仿Wechat聊天" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="210" width="221" height="359" as="geometry" />
         </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a7TuhBxVVwtQFAswcTZL-6" target="a7TuhBxVVwtQFAswcTZL-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="650" />
+              <mxPoint x="488" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="a7TuhBxVVwtQFAswcTZL-6" value="按住说话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="522" width="220" height="47" as="geometry" />
         </mxCell>
@@ -25,7 +33,17 @@
           <mxGeometry x="68" y="210" width="221" height="56" as="geometry" />
         </mxCell>
         <mxCell id="a7TuhBxVVwtQFAswcTZL-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="378" y="207" width="221" height="359" as="geometry" />
+          <mxGeometry x="378" y="207" width="221" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="569" as="sourcePoint" />
+            <mxPoint x="733" y="684" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="488" y="651" />
+              <mxPoint x="733" y="651" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="a7TuhBxVVwtQFAswcTZL-14" value="按住说话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="378" y="519" width="220" height="47" as="geometry" />
@@ -47,6 +65,49 @@
         </mxCell>
         <mxCell id="a7TuhBxVVwtQFAswcTZL-20" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#00FF00;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="389" y="509" width="201" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-30" value="用户进行录音说话&lt;div&gt;调用语音识别出文本&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="613" y="245" width="203" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-31" value="根据文本并且过滤部分无关紧要的&lt;div&gt;文本信息减少语音合成的字符限制&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="330.25" width="292" height="118.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="215" width="221" height="359" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-33" value="按住说话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="527" width="220" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1097" y="292" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-35" value="欢迎来到腾讯云语音专场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="294" width="145.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="927" y="374" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-37" value="&lt;font color=&quot;#ffffff&quot;&gt;我是故事屋想听什么故事&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;&#39;60&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#0D0D0D;" vertex="1" parent="1">
+          <mxGeometry x="973" y="361" width="145.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-38" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;腾讯云玩转AI新声态语音产品应用实践&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="215" width="221" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-39" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#00FF00;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="931" y="517" width="201" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-43" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAYCAYAAAAF6fiUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzlFRDZDRDNENzlFMTFFNkJDN0NFMjA2QTFFRTRDQkIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzlFRDZDRDJENzlFMTFFNkJDN0NFMjA2QTFFRTRDQkIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTAxQkEzQ0RENzM2MTFFNjgyMEI5MTNDRkQ0OTM5QUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTAxQkEzQ0VENzM2MTFFNjgyMEI5MTNDRkQ0OTM5QUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4K4iKVAAACUUlEQVR42uSazytEURTHvTHjR4kaU8xsSDZSdmbjx4oSK8XGQrJlpSwYTSmxEWWhUIpsZK3kD7DRNBuSBZFCNjZ+JPKcV6ecXu/d3sy7595bc+vbfXPue5/749z77o83lm3bZYYFC8RZqAbQAigP2tXNj5aZF7gdkAZNk9+7WvnOCCgxRUCb9n/o1sk3pUH6QDHF/GNsoM+QeYfiy6qkFeLZDBb0GlTB4AAR/xXT9nXxZVa0WCekQd9Y0HOJjg3CHySviiZmfjO3AyIhnu0gBc0wjAIR/wLtW8z87aAOWAI9gqaYRoAff4ZUoi7EKCiUP462j4CdSCrfK4N1Ahpi6I0i/hPa50M4oFB+Dbm/SzXfL5MD4rUogxP8+Itozynm59E+q5ovyuQdHxphWh568XvR5kxq1SEn40L4e0XMA1L4EcEe7RTjLqYdqRf/gezQUwr5LxjXq+aLHPCFcTmTA7z4tutIQhXfLiJPKXyRA/oxzgW8v9DgxU+S62eF/ATGr6r5fg26Corj9RHD4Z0fvwfjS9CbQn4bxrfK+R6TyzxZNk260solTL4i/g3al10TsMXIryA72T7VfK8MnJO8X9CKy14lafXjxx8jFUsSeyUzfxhtPwHPoqTy/TJJMJzJiPgNpJdsuNJizPwztB/q4JtwHN2KW3sn3HuMOouR30l6bbsOvgkOyGIBnaPbRldalJl/h2knuvgmOKAWNAFKMUz4Iv4O6Z1xXXxTPxtazHy6khnVyS/Fb8IDpHGyuvmWgX9L4Q4toDnQFWhNN/9PgAEAR4w1ULjdCbEAAAAASUVORK5CYII=;" vertex="1" parent="1">
+          <mxGeometry x="904" y="407" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a7TuhBxVVwtQFAswcTZL-44" target="a7TuhBxVVwtQFAswcTZL-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1034" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-44" value="后端调用" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="649" y="681" width="157" height="157" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
