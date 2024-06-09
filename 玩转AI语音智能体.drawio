@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T07:00:30.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WWeYVyYz56bMXIeXdVgH" border="50" scale="3" compressed="false" locked="false" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T07:01:59.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rwbE3uLvxz7lHv21JJSE" border="50" scale="3" compressed="false" locked="false" version="24.5.2" type="github">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
     <mxGraphModel dx="1636" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
@@ -15,26 +15,38 @@
         <mxCell id="a7TuhBxVVwtQFAswcTZL-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-88" y="295" width="55" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="a7TuhBxVVwtQFAswcTZL-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-5" value="仿Wechat聊天" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="210" width="221" height="359" as="geometry" />
         </mxCell>
         <mxCell id="a7TuhBxVVwtQFAswcTZL-6" value="按住说话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="522" width="220" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="a7TuhBxVVwtQFAswcTZL-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="245" y="287" width="35" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="a7TuhBxVVwtQFAswcTZL-8" value="欢迎来到腾讯云语音专场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="88" y="289" width="145.5" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="a7TuhBxVVwtQFAswcTZL-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="75" y="369" width="35" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="a7TuhBxVVwtQFAswcTZL-10" value="我是故事屋想听什么故事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="121" y="367" width="145.5" height="31" as="geometry" />
-        </mxCell>
         <mxCell id="a7TuhBxVVwtQFAswcTZL-12" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;腾讯云玩转AI新声态语音产品应用实践&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="68" y="210" width="221" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="207" width="221" height="359" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-14" value="按住说话" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="519" width="220" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="555" y="284" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-16" value="欢迎来到腾讯云语音专场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="286" width="145.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="366" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-18" value="我是故事屋想听什么故事" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="364" width="145.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-19" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;腾讯云玩转AI新声态语音产品应用实践&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="207" width="221" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="a7TuhBxVVwtQFAswcTZL-20" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#00FF00;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="389" y="509" width="201" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
