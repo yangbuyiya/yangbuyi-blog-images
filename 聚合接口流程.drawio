@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T15:55:16.381Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bbJFHzJz7KLNR9M3f7ML" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T15:56:20.164Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="aiSOPGwz5PPh9VYOH6PP" version="24.5.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="876" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,11 +66,20 @@
         <mxCell id="-dxhQLAiEZVsB0S3CAxM-17" value="是否存在&lt;div&gt;data:audio/&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="325" y="450" width="110" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="-dxhQLAiEZVsB0S3CAxM-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-dxhQLAiEZVsB0S3CAxM-19" target="-dxhQLAiEZVsB0S3CAxM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-dxhQLAiEZVsB0S3CAxM-19" value="调用录音文件极速版识别工具类" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="475" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-dxhQLAiEZVsB0S3CAxM-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-dxhQLAiEZVsB0S3CAxM-22" target="-dxhQLAiEZVsB0S3CAxM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-dxhQLAiEZVsB0S3CAxM-22" value="默认文本数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-dxhQLAiEZVsB0S3CAxM-25" value="元器API" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="610" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
