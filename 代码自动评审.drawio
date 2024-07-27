@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" modified="2024-07-27T03:51:09.837Z" version="24.6.1" etag="4AIl546-Fo5dfHjLIpGN" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" modified="2024-07-27T03:52:38.629Z" version="24.6.1" etag="0TByFzM3OjaRUdS1A82K" type="github">
   <diagram name="代码评审架构流程图" id="BxFMLwCdM_yC76DfMntS">
     <mxGraphModel dx="1411" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="UW-pbUMFGenEYsiy5OXE-9" value="GITHUB ACtion" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="460" y="165" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UW-pbUMFGenEYsiy5OXE-11" value="当GIT 提交到Github后我们设置了工作流则将会触发事件 比如CICD常用的WebHook" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="560" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
