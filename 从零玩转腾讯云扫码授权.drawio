@@ -13,6 +13,9 @@
         <mxCell id="mOQfiVYmanUj4Pw-yA3T-7" value="PC端登录" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="260" width="140" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="mOQfiVYmanUj4Pw-yA3T-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="mOQfiVYmanUj4Pw-yA3T-7">
+          <mxGeometry x="10" y="30" width="120" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
