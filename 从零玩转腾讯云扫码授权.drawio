@@ -113,6 +113,9 @@
         <mxCell id="mOQfiVYmanUj4Pw-yA3T-63" value="登录成功" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="mOQfiVYmanUj4Pw-yA3T-62">
           <mxGeometry x="10" y="30" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="mOQfiVYmanUj4Pw-yA3T-68" value="@杨不易呀" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="690" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
