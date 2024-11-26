@@ -59,8 +59,11 @@
         <mxCell id="mOQfiVYmanUj4Pw-yA3T-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="520" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mOQfiVYmanUj4Pw-yA3T-35" value="1.用户进行微信扫码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;glass=0;fillStyle=auto;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="mOQfiVYmanUj4Pw-yA3T-35" value="2.用户进行微信扫码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;glass=0;fillStyle=auto;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="260" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mOQfiVYmanUj4Pw-yA3T-36" value="1.服务端返回二维码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
