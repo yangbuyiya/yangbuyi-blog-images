@@ -36,6 +36,19 @@
         <mxCell id="mOQfiVYmanUj4Pw-yA3T-19" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;服务端获取授权二维码&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="340" y="290" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="mOQfiVYmanUj4Pw-yA3T-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mOQfiVYmanUj4Pw-yA3T-21" target="mOQfiVYmanUj4Pw-yA3T-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="570" />
+              <mxPoint x="320" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOQfiVYmanUj4Pw-yA3T-44" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;3.用户扫码完毕&lt;/span&gt;&lt;div style=&quot;font-weight: 700;&quot;&gt;前端短轮训检查扫码状态&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mOQfiVYmanUj4Pw-yA3T-43">
+          <mxGeometry x="0.0794" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mOQfiVYmanUj4Pw-yA3T-21" value="PC端登录" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="450" width="140" height="160" as="geometry" />
         </mxCell>
